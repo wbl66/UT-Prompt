@@ -27,7 +27,7 @@ These modules demonstrate how typicality and uncertainty are calculated and util
 The `Combine` and `Demos_generate` directories focus on:
 
 - Joint modeling of typicality and uncertainty  
-- Sample selection strategies  
+- Sample determining strategies  
 - Prompt construction under different decision strategies  
 
 These components illustrate how samples are selected and combined to construct prompts based on different modeling strategies.
