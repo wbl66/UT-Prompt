@@ -112,15 +112,11 @@ class SoT:
 
             if paradigm == "cot":
                 exemplars = self.CONTEXT_CACHE_DEFAULT[language_code][paradigm]
-                # print(exemplars)
             else:
                 if self.evaluate_type in ("first_cluster_then_entropy_weight", "first_cluster_then_uncertainty", "first_cluster_then_typicality"):
                     exemplars = self.CONTEXT_CACHE[label]
-                    # print(label)
-                    # print(exemplars)
                 else:
                     exemplars = self.CONTEXT_CACHE[self.dataset]
-                    # print(exemplars)
 
             if include_system_prompt:
                 context = [{"role": "system", "content": self.get_system_prompt(paradigm=paradigm, language_code=language_code)}]

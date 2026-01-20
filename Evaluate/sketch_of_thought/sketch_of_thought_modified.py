@@ -107,8 +107,6 @@ class SoT:
                 logger.warning(MULTIMODAL_MISALIGNMENT)
             
             exemplars = self.CONTEXT_CACHE[label]
-            # print(label)
-            # print(exemplars)
             if include_system_prompt:
                 context = [{"role": "system", "content": self.get_system_prompt(paradigm=paradigm, language_code=language_code)}]
             else:
