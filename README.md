@@ -1,4 +1,4 @@
-# effective_prompt_maker
+# Uncertainty–Typicality–Driven Prompt Construction for Few-Shot SOT Reasoning
 
 ## 📌 Project Overview
 
