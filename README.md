@@ -6,6 +6,8 @@ This repository contains the **core implementation** of the proposed approach.
 
 The project is organized into several key modules, each corresponding to a specific stage of the pipeline.
 
+Note: this repository contains the core implementation; full datasets are not included.
+
 ---
 
 ## 📂 Directory Structure
