@@ -10,6 +10,22 @@ Note: this repository contains the core implementation; full datasets are not in
 
 ---
 
+## 🚀 Get Started
+
+```bash
+# Clone the Repository
+git clone https://github.com/wbl66/UT-Prompt.git
+
+# Create Virtual Environment with Conda
+conda create --name UT_Prompt python=3.10
+conda activate UT_Prompt
+
+# Install Dependencies
+pip install -r requirements/requirements.txt
+```
+
+---
+
 ## 📂 Directory Structure
 
 ### 🔹 Typicality / Uncertainty
